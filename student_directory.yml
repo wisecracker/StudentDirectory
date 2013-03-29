@@ -1,0 +1,100 @@
+--- 
+...
+--- !ruby/object:Student
+name: Jon
+email: jw.rogers87@gmail.com
+--- !ruby/object:Student
+name: Jon
+email: jw.rogers87@gmail.com
+github_user: wisecracker
+twitter: wisecracker100
+fun_fact: My favorite planet is Saturn
+--- !ruby/object:Student
+name: j
+email: f
+github_user: dew
+twitter: we
+fun_fact: I love basketball
+reason_for_joining: Cuz its crazy
+teleport: teleport
+food: chinese
+movie: horror
+--- 
+...
+--- !ruby/object:Student
+name: g
+email: d
+github_user: e
+twitter: f
+fun_fact: g
+reason_for_joining: e
+teleport: f
+food: s
+movie: f
+--- !ruby/object:Student
+name: g
+email: f
+github_user: f
+twitter: f
+fun_fact: f
+reason_for_joining: f
+teleport: f
+food: f
+movie: f
+--- 
+...
+--- !ruby/object:Student
+name: ''
+email: ''
+github_user: ''
+twitter: ''
+fun_fact: ''
+reason_for_joining: ''
+teleport: ''
+food: ''
+movie: ''
+--- 
+...
+--- !ruby/object:Person::Student {}
+--- !ruby/object:Person::Student {}
+--- !ruby/object:Person::Student {}
+--- !ruby/object:Person::Student {}
+--- 
+...
+--- !ruby/object:Person::Student {}
+--- !ruby/object:People::Student {}
+--- !ruby/class 'Person'
+--- !ruby/class 'Person'
+--- !ruby/class 'Person'
+--- !ruby/class 'Person'
+--- !ruby/class 'Person'
+--- !ruby/object:Student
+name: r
+email: r
+github_user: r
+twitter: r
+fun_fact: r
+teleport: r
+food: r
+movie: r
+reason_for_joining: r
+--- !ruby/object:Instructor
+name: f
+email: f
+github_user: f
+twitter: f
+fun_fact: f
+teleport: f
+food: f
+movie: f
+instructor_type: f
+--- !ruby/object:Student
+name: ''
+email: s
+github_user: s
+twitter: s
+fun_fact: s
+teleport: s
+food: s
+movie: s
+reason_for_joining: s
