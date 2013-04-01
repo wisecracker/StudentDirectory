@@ -1,100 +1,320 @@
---- 
-...
---- !ruby/object:Student
-name: Jon
-email: jw.rogers87@gmail.com
---- !ruby/object:Student
-name: Jon
-email: jw.rogers87@gmail.com
-github_user: wisecracker
-twitter: wisecracker100
-fun_fact: My favorite planet is Saturn
---- !ruby/object:Student
-name: j
-email: f
-github_user: dew
-twitter: we
-fun_fact: I love basketball
-reason_for_joining: Cuz its crazy
-teleport: teleport
-food: chinese
-movie: horror
---- 
-...
---- !ruby/object:Student
-name: g
-email: d
-github_user: e
-twitter: f
-fun_fact: g
-reason_for_joining: e
-teleport: f
-food: s
-movie: f
---- !ruby/object:Student
-name: g
-email: f
-github_user: f
-twitter: f
-fun_fact: f
-reason_for_joining: f
-teleport: f
-food: f
-movie: f
---- 
-...
---- !ruby/object:Student
-name: ''
-email: ''
-github_user: ''
-twitter: ''
-fun_fact: ''
-reason_for_joining: ''
-teleport: ''
-food: ''
-movie: ''
---- 
-...
---- !ruby/object:Person::Student {}
---- !ruby/object:Person::Student {}
---- !ruby/object:Person::Student {}
---- !ruby/object:Person::Student {}
---- 
-...
---- !ruby/object:Person::Student {}
---- !ruby/object:People::Student {}
---- !ruby/class 'Person'
---- !ruby/class 'Person'
---- !ruby/class 'Person'
---- !ruby/class 'Person'
---- !ruby/class 'Person'
---- !ruby/object:Student
-name: r
-email: r
-github_user: r
-twitter: r
-fun_fact: r
-teleport: r
-food: r
-movie: r
-reason_for_joining: r
 --- !ruby/object:Instructor
-name: f
-email: f
-github_user: f
-twitter: f
-fun_fact: f
-teleport: f
-food: f
-movie: f
-instructor_type: f
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Scherry Momin
+email: scherry@sffama.org
+github_user: scherrymomin
+twitter: scherrymomin
+fun_fact: 'no'
+teleport: teleport
+food: lupa
+movie: don't know
+instructor_type: TA
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Scherry Momin
+email: scherry@sffama.org
+github_user: scherrymomin
+twitter: scherrymomin
+fun_fact: 'no'
+teleport: teleport
+food: lupa
+movie: don't know
+instructor_type: TA
 --- !ruby/object:Student
-name: ''
-email: s
-github_user: s
-twitter: s
-fun_fact: s
-teleport: s
-food: s
-movie: s
-reason_for_joining: s
+name: Mathilda
+email: mathildathompson288@gmail.com
+github_user: mathildathompson
+twitter: mathildathompson288
+fun_fact: I have just moved to NYC
+teleport: fly
+food: chocolate
+movie: ''
+reason_for_joining: To learn to code
+--- !ruby/object:Student
+name: Joe
+email: joseph.simoes@gmail.com
+github_user: jacs1
+twitter: JSimoes01
+fun_fact: I was a pro golfer at the age of 7
+teleport: Fly, obviously.
+food: sushi
+movie: action/drama
+reason_for_joining: Learn to code
+--- !ruby/object:Student
+name: Jen
+email: jennolim@gmail.com
+github_user: jennojenno
+twitter: jennojenno
+fun_fact: I'm korean but suck at Starcraft
+teleport: I'd teleport if I could be convinced it wouldn't scramble me
+food: cheeeese
+movie: comedies
+reason_for_joining: To make cool shit & make a ton of monayyy
+--- !ruby/object:Student
+name: Roman
+email: rome.gun@gmail.com
+github_user: RomanG
+twitter: ! '@WhoIsRomanGun'
+fun_fact: I've been to 30+ countries
+teleport: Teleport
+food: Bacon Avacado Cheeseburgers
+movie: n/a
+reason_for_joining: To build minions
+--- !ruby/object:Student
+name: Craig
+email: cgelberg85@gmail.com
+github_user: cgelberg
+twitter: craiggelberg
+fun_fact: I love to ski and travel
+teleport: teleport
+food: Chicken Parm
+movie: Comedy
+reason_for_joining: To become a developer
+--- !ruby/object:Student
+name: Andrew H. Yi
+email: andrew.yi50@gmail.com
+github_user: squidapillar@github.com
+twitter: ! '@ahyituna'
+fun_fact: I have a middle name
+teleport: Teleport
+food: Pizza
+movie: Twilight
+reason_for_joining: Make friends
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Scherry Momin
+email: scherry@sffama.org
+github_user: scherrymomin
+twitter: scherrymomin
+fun_fact: 'no'
+teleport: teleport
+food: lupa
+movie: don't know
+instructor_type: TA
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Dan Garland
+email: dan@dangarland.co.uk
+github_user: dmgarland
+twitter: ! '@dmgarland'
+fun_fact: I like to play synthesisers
+teleport: teleport
+food: Steak
+movie: Horror Survival
+instructor_type: Teacher
+--- !ruby/object:Instructor
+name: Scherry Momin
+email: scherry@sffama.org
+github_user: scherrymomin
+twitter: scherrymomin
+fun_fact: 'no'
+teleport: teleport
+food: lupa
+movie: don't know
+instructor_type: TA
+--- !ruby/object:Student
+name: Mathilda
+email: mathildathompson288@gmail.com
+github_user: mathildathompson
+twitter: mathildathompson288
+fun_fact: I have just moved to NYC
+teleport: fly
+food: chocolate
+movie: ''
+reason_for_joining: To learn to code
+--- !ruby/object:Student
+name: Joe
+email: joseph.simoes@gmail.com
+github_user: jacs1
+twitter: JSimoes01
+fun_fact: I was a pro golfer at the age of 7
+teleport: Fly, obviously.
+food: sushi
+movie: action/drama
+reason_for_joining: Learn to code
+--- !ruby/object:Student
+name: Jen
+email: jennolim@gmail.com
+github_user: jennojenno
+twitter: jennojenno
+fun_fact: I'm korean but suck at Starcraft
+teleport: I'd teleport if I could be convinced it wouldn't scramble me
+food: cheeeese
+movie: comedies
+reason_for_joining: To make cool shit & make a ton of monayyy
+--- !ruby/object:Student
+name: Roman
+email: rome.gun@gmail.com
+github_user: RomanG
+twitter: ! '@WhoIsRomanGun'
+fun_fact: I've been to 30+ countries
+teleport: Teleport
+food: Bacon Avacado Cheeseburgers
+movie: n/a
+reason_for_joining: To build minions
+--- !ruby/object:Student
+name: Craig
+email: cgelberg85@gmail.com
+github_user: cgelberg
+twitter: craiggelberg
+fun_fact: I love to ski and travel
+teleport: teleport
+food: Chicken Parm
+movie: Comedy
+reason_for_joining: To become a developer
+--- !ruby/object:Student
+name: Andrew H. Yi
+email: andrew.yi50@gmail.com
+github_user: squidapillar@github.com
+twitter: ! '@ahyituna'
+fun_fact: I have a middle name
+teleport: Teleport
+food: Pizza
+movie: Twilight
+reason_for_joining: Make friends

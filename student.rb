@@ -90,22 +90,36 @@ File.open('student_directory.yml', 'a') { |f|
   end   
 } 
 
-@directory = ""
+@directory = []
 puts "Student Directory, v0.3.2 by Big PAPA"
 print "Enter Student or Instructor, q to save and quit: "
 
 while ((input = gets.strip.chomp) != 'q') do
   someone = Person.create_person(input)
 
-  # Append this to our yaml file
-  @directory += someone.to_yaml
+  @directory << someone
   puts @directory
+# Append this to our yaml file
+  case input
   
-  print "Enter Student or Instructor, q to save and quit: "
+  when 'l'
+    @directory += YAML.load_documents(File.open("Student_directory yml"))
+    puts @directory
+  end
+  
+  
+ 
+
+  
+  print "Enter Student or Instructor, l to load,  q to save and quit: "
 end
 
 # Open a student_directory.yml YAML file and write it out on one line
-File.open('student_directory.yml', 'a') { |f| f.write(@directory) } 
-
+# File.open('student_directory.yml', 'a') { |f| f.write(@directory) } 
+File.open('student_directory.yml', 'a') { |f|
+  @directory.compact.each do |person|
+    f.write(person.to_yaml)
+  end   
+} 
 
 
